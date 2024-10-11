@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    border-bottom: 2px solid #00ff99;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #00ff99;
+    text-shadow: 2px 2px 5px rgba(0, 255, 153, 0.7);
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 255, 153, 0.7);
+    color: #00ff99;
+    border-bottom: 2px solid #00ff99;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.intro, .technologies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro .content, .technologies .content {
+    width: 55%;
+}
+
+.intro .image, .technologies .image {
+    width: 40%;
+}
+
+.intro img, .technologies img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 153, 0.7);
+}
+
+.examples, .non-ai-examples {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 153, 0.3);
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    color: #00ff99;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    border-top: 2px solid #00ff99;
+}
+
+footer p {
+    color: #00ff99;
+}
